@@ -18,11 +18,11 @@ const navItems = [
 const socials = [
     {
         name: "twitter",
-        link: "#"
+        link: "https://twitter.com/rowdyroyalsnft"
     },
     {
         name: "discord",
-        link: "#"
+        link: "https://discord.gg/VKcPTPRBc2"
     },
 ]
 
