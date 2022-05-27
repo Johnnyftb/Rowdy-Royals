@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* Showcase */
+.showcase {
+  background: linear-gradient(0deg, rgba(4,7,68,1) 0%, rgba(194,197,232,1) 100%);
+}
+
+/* Page Links */
+.page-links {
+  background-color: #f8f9fa;
+  height: 6vh;
+}
+
+.page-links p {
+  vertical-align: middle;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 5;
+  height: 15vh;
+}
+
+.navbar img {
+  height: 12vh;
+}
+
+/* Header */
+.header {
+  position: relative;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.header .container {
+  height: 100%;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: absolute;
+  right: 10px;
+  top: 12vh;
+  z-index: 10;
+}
+
+/* About */
+.about .desc {
+  width: 50%;
+}
+
+.about img {
+  width: 30%;
+}
+
+@media (max-width: 992px) {
+  .about .desc {
+    width: 100%;
+  }
+}
+
+/* Roadmap */
+.roadmap {
+  background: radial-gradient(circle, rgba(11,11,11,1) 0%, rgba(43,43,43,1) 75%);
+}
+
+/* Footer */
+.footer {
+  min-height: 12vh;
+}
+
+.footer .container {
+  height: 100%;
+}
+
+/* Fonts */
+.text-varela {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* Animations */
+.rotate-plus-90 {
+  transform: rotate(90deg);
+  transition: transform 0.5s;
+}
+
+.rotate-minus-90 {
+  transform: rotate(0);
+  transition: transform 0.5s;
+}
+
+.opacity-0 {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.opacity-1 {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
